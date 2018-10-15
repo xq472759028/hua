@@ -1,0 +1,319 @@
+@import "base.css";
+
+.record{
+    width: 100%;
+    height: auto;
+}
+.record-cnetr{
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+.record-left{
+    width: 870px;
+    float: left;
+    padding:45px;
+    background: #fff;
+}
+.record-title{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+.record-title h2{
+    font-size: 24px;
+    margin-bottom: 18px;
+    text-align: center;
+    color: #333;
+}
+.record-list{
+    width: 100%;
+    overflow: hidden;
+    float: left;
+    margin-left: 37%;
+}
+.record-list li{
+    float: left;
+    font-size: 12px;
+    color: #333;
+    margin-right: 15px;
+}
+.record-list li:last-child{
+    margin-right: 0px;
+}
+.record-all{
+    width: 100%;
+    margin-top: 50px;
+}
+.record-all{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.record-all h3{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+    text-indent:2em;
+}
+.record-all p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+    text-indent:2em;
+}
+.record-all span{
+    display: block;
+    font-size: 16px;
+    color: #333;
+    line-height: 26px;
+    text-indent:2em;
+    margin-bottom: 10px;
+}
+.record-all img{
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+/*右边内容开始*/
+.serch-right {
+    float: right;
+    width: 300px;
+}
+
+.serch-form {
+    width: 100%;
+    border: 1px solid #eee;
+    padding: 0 20px;
+    height: 418px;
+}
+
+.serch-safe {
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 28px;
+    color: #333;
+}
+
+.serch-safe-word {
+    color: #666;
+    font-size: 14px;
+    display: block;
+    padding-top: 6px;
+}
+
+.serch-safe-word i {
+    color: #ff890b;
+}
+
+.serch-input {
+    margin-top: 10px;
+    height: 100px;
+}
+
+.serch-input input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    margin: 8px 0px;
+}
+
+.serch-have {
+    color: #999;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.serch-have i {
+    color: #f90;
+    margin: 0px 4px;
+}
+
+.serch-have label {
+    float: right;
+}
+
+.serch-have label input {
+    margin-right: 5px !important;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.serch-button {
+    margin-top: 4px;
+    background: #ff890b;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    display: block;
+    line-height: 38px;
+    border: none;
+    cursor: pointer;
+}
+
+.serch-button:hover {
+    background: #f74a0d;
+}
+
+.serch-free {
+    margin-top: 20px;
+    width: 300px !important;
+    font-size: 12px;
+}
+
+.serch-offer {
+    width: 100%;
+}
+
+.serch-offer li {
+    width: 83px;
+    height: 24px;
+    line-height: 24px;
+    color: #666;
+    margin-bottom: 10px;
+    list-style: none;
+    float: left;
+    margin-right: 15px;
+}
+
+.serch-offer li a {
+    color: #333;
+}
+
+.serch-offer li a i {
+    float: left;
+    margin-right: 5px;
+    margin-top: 2px;
+    height: 20px;
+    width: 20px;
+    display: block
+}
+
+.serch-offer-img1 {
+    background: url("../image/free_02.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.serch-offer-img2 {
+    background: url("../image/free_04.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.serch-offer-img3 {
+    background: url("../image/free_06.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.serch-offer-img4 {
+    background: url("../image/free_08.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.serch-offer-img5 {
+    background: url("../image/free_10.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.serch-offer-img6 {
+    background: url("../image/free_02.jpg") no-repeat center;
+    background-size: cover;
+}
+
+/*巧装家活跃设计师*/
+.live {
+    width: 100%;
+    height: 425px;
+    border: 1px solid #eee;
+}
+
+.live-title {
+    font-size: 18px;
+    border-left: 3px solid #d6162d;
+    padding-left: 10px;
+    margin: 20px;
+    color: #333;
+}
+
+.live-list {
+    width: 100%;
+    height: 360px;
+}
+
+.live-list li {
+    float: left;
+    width: 76px;
+    height: 94px;
+    margin: 0px 12px 20px;
+}
+
+.live-list li:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.live-list li img {
+    display: block;
+    width: 70px;
+    height: 70px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 3px solid #eee;
+    margin-bottom: 6px
+}
+
+.live-list li img:hover {
+    border: 3px solid #ff890b;
+}
+
+.live-list li p {
+    text-align: center;
+    color: #333;
+    line-height: 12px;
+}
+
+/*设计师排行*/
+.live-item {
+    width: 100%;
+    height: 360px;
+}
+
+.live-item li {
+    overflow: hidden;
+    padding: 16px;
+    border-bottom: 1px dotted #d8d8d8;
+}
+
+.live-item li p {
+    background: #ccc;
+    float: left;
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    line-height: 16px;
+    color: #fff;
+    font-size: 12px;
+    font-style: normal;
+    margin-right: 15px;
+    margin-top: 4px;
+}
+
+.live-num {
+    background: #d6162d !important;
+}
+
+.live-item li span {
+    color: #888;
+}
+
+/*默认排序结束*/
